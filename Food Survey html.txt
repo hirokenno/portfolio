@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css"/>
+    <title id="Food survey">Food Survey</title></head>
+    <body>
+     <h1>Food Survey</h1>
+     <p id="description">We appreciate your feedback!</p>
+     <form id="survey-form">
+
+     <fieldset>
+       <label for="name-label">Name: <input id="name-label" type="text" name="name" placeholder="Name" required>
+     <label for="number-label">Age:   <input id="number-label" name="age" type="number" min="10" max="120" placeholder="Age" required />
+     </label>
+<label for="email-label">Email: <input id="email-label" type="email" name="email" placeholder="Email"></label>
+</fieldset>
+
+<fieldset>Gender :
+<label for="gender-male"><input type="radio" id="gender-male" name="gender" value="male" class="inline" checked> Male</label>
+<label for="gender-female"><input id="gender-female" type="radio" name="gender" value="female"class="inline">Female</label></fieldset>
+
+<fieldset>How do you know about us? <select id="dropdown" name="dropdown">
+<option>(select one)</option>
+<option>Search engine</option>
+<option>Facebook</option>
+<option>Instagram</option>
+<option>Cafe</option>
+<option>Friends</option>
+ </select>  
+ </fieldset>
+
+ <fieldset>
+   <legend>
+Which flavour do you like? (Check all that apply)</legend>
+ <label for="ichigo"> <input type="checkbox" value="ichigo" id="ichigo"> Ichigo/Strawberry (Original)</label>
+ <label for="matcha"><input type="checkbox" value="matcha" id="matcha"> Matcha Ichigo</label>
+ <label for="ichigo-cream"> 
+   <input type="checkbox" value="ichigo-cream" id="ichigo-cream">Ichigo Cream</label>
+   <label for="black-sesame"> 
+   <input type="checkbox" value="black-sesame" id="black-sesame">Black Sesame Vanilla</label>
+   <label for="persimmon"> 
+   <input type="checkbox" value="persimmon" id="persimmon">Persimmon</label>
+   <label for="matcha-yuzu"> 
+   <input type="checkbox" value="matcha-yuzu" id="matcha-yuzu">Uji Matcha & Yuzu</label>
+   <label for="ichigo-white-an"> 
+   <input type="checkbox" value="ichigo-white-an" id="ichigo-white-an">Ichigo White bean paste</label>
+   </fieldset>
+
+   <fieldset>
+     <legend>We welcome your thoughts and ideas.</legend>
+    <label for="feedback"><textarea name="feedback" id="feedback" rows="5" cols="550" placeholder="Your comment helps us to improve - Thank you!"></textarea></label>
+
+<input id="submit" type="submit" value="Submit">
+ </form>
+ </body>
+ </html>
