@@ -1,0 +1,100 @@
+/* body */
+body{
+  font-family: sans-serif;
+ width: 100%;
+ margin: 0 0 2em 0;
+ background-color: #9caf88;
+ color: #96514d;
+ font-size: 16px;
+
+}
+
+/* title edit */
+h1, p{
+  text-align: center;
+margin: 1em auto;
+}
+
+/* below title edit */
+form{
+   width: 40vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  height: auto;
+  padding: 2em;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 15px;
+
+}
+fieldset{
+  border:none;
+  padding: 1em 0;
+}
+
+label{
+  display: block;
+  margin: 0.5em auto;
+}
+/* tried to delete margin around the legend */
+legend{
+  margin: 2em 0 0 0;
+  padding: 2em 0 0 0;
+}
+
+
+input, textarea, select{
+  margin: 10px 0 0 0;
+  width: 70%;
+   min-height: 2em;
+}
+
+textarea {
+  width: 100%;
+  max-width: 300px;
+  height: 100px;
+  box-sizing: border-box;
+}
+
+input, textarea{
+  background-color: #fbd3e0;
+  border: 1px solid #fbd3e0;
+  color: #96514d;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+input[type="checkbox"] {
+  width: 18px;
+  margin:0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+input[type="submit"]{
+  display: block;
+  width: 100%;
+  border: solid #96514d;
+  font-size: 1.1em;
+  height: 2em;
+  min-width: 300px;
+}
+
+input[type="submit"]:hover {
+  background-color: #96514d;
+  color: #fbd3e0;
+  cursor: pointer;
+}
+
+/* for mobile or tablets */
+@media (max-width: 400px) {
+  form {
+    width: 90vw;
+    padding: 1em;
+  }
+  input, textarea, select {
+    width: 100%;
+  }
+}
