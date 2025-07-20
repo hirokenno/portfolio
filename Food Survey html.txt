@@ -5,15 +5,15 @@
   <link rel="stylesheet" href="styles.css"/>
     <title>Food Survey</title></head>
     <body>
-     <h1>Food Survey</h1>
+     <h1 id="title">Food Survey</h1>
      <p id="description">We appreciate your feedback!</p>
      <form id="survey-form">
 
      <fieldset>
-       <label for="name-label">Name: <input id="name-label" type="text" name="name" placeholder="Name" required>
-     <label for="number-label">Age:   <input id="number-label" name="age" type="number" min="10" max="120" placeholder="Age" required />
-     </label>
-<label for="email-label">Email: <input id="email-label" type="email" name="email" placeholder="Email"></label>
+       <label id="name-label">Name: <input id="name" type="text" name="name" placeholder="Name" required>
+    </label>
+<label id="number-label">Age:   <input id="number" name="age" type="number" min="10" max="120" placeholder="Age" required /></label>
+<label id="email-label">Email: <input id="email" type="email" name="email" placeholder="Email" required></label>
 </fieldset>
 
 <fieldset>Gender :
@@ -49,8 +49,8 @@ Which flavour do you like? (Check all that apply)</legend>
 
    <fieldset>
      <legend>We welcome your thoughts and ideas.</legend>
-    <label for="feedback"><textarea name="feedback" id="feedback" rows="5" cols="550" placeholder="Your comment helps us to improve - Thank you!"></textarea></label>
-
+    <label for="feedback"><textarea name="feedback" id="feedback" rows="5" cols="50" placeholder="Your comment helps us to improve - Thank you!"></textarea></label>
+</fieldset>
 <input id="submit" type="submit" value="Submit">
  </form>
  </body>
