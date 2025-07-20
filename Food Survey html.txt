@@ -3,7 +3,7 @@
     <head>
       <meta charset="utf-8">
   <link rel="stylesheet" href="styles.css"/>
-    <title id="Food survey">Food Survey</title></head>
+    <title>Food Survey</title></head>
     <body>
      <h1>Food Survey</h1>
      <p id="description">We appreciate your feedback!</p>
