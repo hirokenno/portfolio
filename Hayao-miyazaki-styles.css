@@ -1,0 +1,75 @@
+body {
+  font-family: "Robot", sans-serif;
+  background-color: #f5deb3;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 0;
+  text-align: center;
+}
+header p,
+figure {
+  text-align: center;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 2rem;
+  width: auto;
+  margin: auto;
+  padding-left: 20px;
+  color: #f5deb3;
+  background-color: #6b8e23;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+fieldset {
+  max-width: 40%;
+  margin: 40px auto 40px auto;
+  border: 0;
+  text-align: justify;
+}
+
+#tribute-info {
+  text-align: end;
+  font-size: 14px;
+}
+nav {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+nav a {
+  color: #8a9a5b;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #f5f5dc;
+  background-color: #8a9a5b;
+}
+footer {
+  text-align: center;
+}
+
+fieldset a {
+  color: #8a9a5b;
+}
+fieldset a:hover {
+  color: #f5f5dc;
+  background-color: #8a9a5b;
+}
