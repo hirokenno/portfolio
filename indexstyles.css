@@ -1,0 +1,61 @@
+/* 全体 */
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background-color: #fdf6e3; /* 優しいベージュ */
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* ヘッダー */
+header {
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: #ffefc1;
+  border-bottom: 2px solid #f0d290;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: #b85c38;
+}
+
+header p {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+  color: #666;
+}
+
+/* ポートフォリオセクション */
+.portfolio {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.portfolio h2 {
+  font-size: 1.8rem;
+  color: #b85c38;
+  margin-bottom: 1rem;
+}
+
+.portfolio ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.portfolio li {
+  margin-bottom: 0.8rem;
+}
+
+.portfolio a {
+  text-decoration: none;
+  color: #007acc;
+  font-weight: bold;
+}
+
+.portfolio a:hover {
+  text-decoration: underline;
+}
