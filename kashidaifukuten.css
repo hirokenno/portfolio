@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;600&family=Playfair+Display:wght@500&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Serif JP', serif;
+  background: #f8f6f1 url('https://www.transparenttextures.com/patterns/paper-fibers.png');
+  background-size: contain;
+  color: #2e2b27;
+}
+
+.menu-container {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 0.15em;
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+.sub {
+  color: #6b6b6b;
+  font-size: 0.9rem;
+  margin-top: 0.3rem;
+}
+
+.menu-section {
+  margin-bottom: 2.5rem;
+}
+
+h2 {
+  font-size: 1.1rem;
+  letter-spacing: 0.2em;
+  border-bottom: 1px solid #d8d3c9;
+  display: inline-block;
+  padding-bottom: 0.3rem;
+  color: #4b463f;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.6rem 0;
+  border-bottom: 0.5px dashed #d9d4cb;
+  padding-bottom: 0.4rem;
+}
+
+.price {
+  color: #6a604f;
+  font-family: 'Playfair Display', serif;
+  font-size: 0.95rem;
+}
+
+/* コメントアウト済み画像エリア */
+li img {
+  width: 100%;
+  max-width: 120px;
+  border-radius: 12px;
+  margin-top: 0.4rem;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  font-size: 0.8rem;
+  color: #8b857c;
+  margin-top: 3rem;
+}
+
+/* 📱 スマホ対応 */
+@media (max-width: 600px) {
+  body {
+    padding: 0;
+  }
+
+  .menu-container {
+    padding: 25px 16px;
+  }
+
+  h1 {
+    font-size: 1.4rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+
+  li {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .price {
+    align-self: flex-end;
+    margin-top: 0.2rem;
+  }
+}
