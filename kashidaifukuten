@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kashi Daifukuten Menu</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="menu-container">
+    <header>
+      <h1>KASHI DAIFUKUTEN</h1>
+      <p class="sub">Hand made daifuku shop</p>
+    </header>
+
+    <section class="menu-section">
+      <h2>RED BEAN PASTE</h2>
+      <ul>
+        <li>
+          <span>Classic strawberry daifuku</span>
+          <span class="price">$4.4</span>
+          <!-- <img src="images/strawberry.jpg" alt="Classic Strawberry Daifuku" /> -->
+        </li>
+        <li>
+          <span>Black sesame with salted vanilla cream</span>
+          <span class="price">$4.4</span>
+        </li>
+        <li>
+          <span>Strawberry cream</span>
+          <span class="price">$4.5</span>
+        </li>
+        <li>
+          <span>Matcha cream & Yuzu</span>
+          <span class="price">$4.7</span>
+        </li>
+      </ul>
+    </section>
+
+    <section class="menu-section">
+      <h2>WHITE BEAN PASTE</h2>
+      <ul>
+        <li><span>Cherry blossom strawberry</span><span class="price">$4.7</span></li>
+        <li><span>Coffee and cream</span><span class="price">$4.8</span></li>
+        <li><span>Matcha paste strawberry</span><span class="price">$4.9</span></li>
+        <li><span>Genmaicha paste strawberry</span><span class="price">$4.9</span></li>
+        <li><span>White bean paste Mango</span><span class="price">$4.9</span></li>
+        <li><span>White bean paste White Peach</span><span class="price">$4.9</span></li>
+      </ul>
+    </section>
+
+    <section class="menu-section">
+      <h2>OTHERS</h2>
+      <ul>
+        <li><span>Warabi mochi</span><span class="price">$16.5 / $32</span></li>
+        <li><span>Cannelé de Bordeaux</span><span class="price">$25.2 / 6pcs〜</span></li>
+        <li><span>Castella cake 1 loaf (210mm×210mm)</span><span class="price">$62</span></li>
+      </ul>
+    </section>
+
+    <footer>
+      <p>© Kashi Daifukuten — Traditional meets Modern</p>
+    </footer>
+  </div>
+</body>
+</html>
